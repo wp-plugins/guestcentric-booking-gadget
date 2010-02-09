@@ -101,12 +101,18 @@ function updateFormValues() {
 	$langList = array_keys ($gcData);
 
 	for ($i=0; $i<$langNum; $i++) {
-		echo 'case "'.$langList[$i].'":';
-		echo '$(".titleClass").val("'.$gcData[$langList[$i]]['titleText'].'");';
-		echo '$(".apiClass").val("'.$gcData[$langList[$i]]['apiKey'].'");';
-		echo '$(".orientationClass").val("'.$gcData[$langList[$i]]['orientation'].'");';
-		echo '$(".linkClass").val("'.$gcData[$langList[$i]]['linkText'].'");';
-		echo 'break;';
+		echo 'case "'.$langList[$i].'":
+		';
+		echo '$(".titleClass").val("'.$gcData[$langList[$i]]['titleText'].'");
+		';
+		echo '$(".apiClass").val("'.$gcData[$langList[$i]]['apiKey'].'");
+		';
+		echo '$(".orientationClass").val("'.$gcData[$langList[$i]]['orientation'].'");
+		';
+		echo '$(".linkClass").val("'.$gcData[$langList[$i]]['linkText'].'");
+		';
+		echo 'break;
+		';
 	}
 
 }
