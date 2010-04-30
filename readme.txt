@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: pedro.a
-Tags: guestcentric, hotel, booking gadget, booking engine, widget
+Tags: guestcentric, hotel, booking gadget, booking engine, hotel booking engine, hotel booking gadget, widget
 Requires at least: 2.3
 Tested up to: 2.9.1
 Stable tag: trunk
@@ -9,9 +9,11 @@ This plugin enables you to add your GuestCentric booking gadget to your wordpres
 
 == Description ==
 
-With this plugin, inserting your GuestCentric booking gadget is made easy, via an easy widget interface.
+With this plugin, inserting your GuestCentric booking engine is made easy, via an easy widget interface.
 
 All that is required is that you insert you Api Key, select the type of widget, and you're done! Anyone can now book from your Wordpress page, right in the sidebar.
+
+If you're looking for a online reservation platform, this your absolute best choice.
 
 == Installation ==
 
@@ -24,7 +26,7 @@ You should be able to install from the WordPress plugins area. Optionally:
 
 == Frequently Asked Questions ==
 
-= Where can I find my Api Key =
+= Where can I find my Api Key? =
 
 The ApiKey for a language can be found in your GuestCentric back office, in the external booking gadget area.
 
@@ -34,7 +36,7 @@ Multi Language is supported via the WPML plugin. If you wish to use more than 1 
 
 = Can I use languages other the GuestCentric default ones? =
 
-Yes. The widget creates diffrent versions of the booking gadget for each WPML language. Thus, an Italian website can have a German booking gadget. Since the Api Key is responsible for language, make sure to select the correct key for the wordpress language you wish it to be in.
+Yes. The widget creates diffrent versions of the booking gadget for each WPML language. Thus, an Italian website can have a German booking gadget. Since the Api Key is responsible for the language, make sure to select the correct key for the wordpress language you wish it to be in.
 
 == Changelog ==
 
