@@ -5,7 +5,7 @@ Requires at least: 2.3
 Tested up to: 2.9.1
 Stable tag: trunk
 
-This plugin enables you to add your GuestCentric booking gadget to your wordpress blog without actually having to edit your templates.
+This plugin enables you to add your GuestCentric booking engine to your wordpress blog without actually having to edit your templates.
 
 == Description ==
 
